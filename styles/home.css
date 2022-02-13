@@ -1,0 +1,27 @@
+.homepage_main_container {
+  width: 100%;
+}
+
+.homepage_banner_container {
+  height: 75vh;
+  background: url(https://t4.ftcdn.net/jpg/03/53/30/37/240_F_353303717_CIe03ztwkbWMs1eU8AC3rfFFZbPpXOJa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0.6rem;
+  border-radius: 5px;
+}
+
+.banner_content_container {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+._title {
+  color: white;
+  font-size: 6rem;
+}
+
+._btn {
+  background-color: white;
+  color: black;
+}

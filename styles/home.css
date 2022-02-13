@@ -3,17 +3,15 @@
 }
 
 .homepage_banner_container {
-  height: 75vh;
-  background: url(https://t4.ftcdn.net/jpg/03/53/30/37/240_F_353303717_CIe03ztwkbWMs1eU8AC3rfFFZbPpXOJa.jpg);
+  height: 90vh;
+  background: url(https://images.pexels.com/photos/1903970/pexels-photo-1903970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0.6rem;
-  border-radius: 5px;
 }
 
 .banner_content_container {
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 ._title {
@@ -24,4 +22,22 @@
 ._btn {
   background-color: white;
   color: black;
+}
+
+.homepage_categories {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas: 
+    "one two"
+    "three four";
+  padding: 3rem 0.8rem;
+}
+
+.plant_img{
+    width: 100%;
+}
+
+.promotion_banner{
+    display: grid;
+    grid-template-areas: "one two";
 }

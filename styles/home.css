@@ -3,10 +3,11 @@
 }
 
 .homepage_banner_container {
-  height: 90vh;
-  background: url(https://images.pexels.com/photos/1903970/pexels-photo-1903970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 85vh;
+  background: url(https://cdn.shopify.com/s/files/1/1485/6894/files/home5_bg1.jpg?v=1514625150);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 1.5rem;
 }
 
 .banner_content_container {
@@ -27,17 +28,90 @@
 .homepage_categories {
   display: grid;
   gap: 1.5rem;
+  grid-template-areas: "one two";
+  margin: 3rem 1.5rem;
+}
+
+.plant_img {
+  width: 100%;
+}
+
+.promotion_banner {
+  display: grid;
+  grid-template-areas: "one two";
+  margin: 3rem 1.5rem;
+}
+
+.categories_img_container {
+  position: relative;
+}
+
+.categories_img_title{
+  font-size: 2.3rem;
+  color: #000000;
+}
+
+.categories_img_subtitle_plant {
+  margin: 0.625rem 0 0 1.563rem;
+}
+
+.info{
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+.info-bestselling{
+  left: 40%;
+}
+
+.categories_navTab_container{
+  margin: 3rem 1.5rem;
+}
+
+.categories_navTabs_list{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem 0;
+}
+
+.categories_navLink{
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+
+.categories_navLink1{
+  margin-right: 2rem;
+}
+
+.categories_navLink2{
+  margin: 0rem 2rem;
+}
+
+.card_container{
+  margin: 3rem 1.5rem;
+  display: grid;
+  gap: 2.5rem;
+  row-gap: 7rem;
   grid-template-areas: 
-    "one two"
-    "three four";
-  padding: 3rem 0.8rem;
+    "one two three four"
+    "five six seven eight"; 
 }
 
-.plant_img{
-    width: 100%;
+.card_custom_width{
+  width: 18rem;
 }
 
-.promotion_banner{
-    display: grid;
-    grid-template-areas: "one two";
+.custom_btn{
+  background-color: #557669;
+  width: 93%;
+}
+
+.pri_clr{
+  color: #556052;
 }

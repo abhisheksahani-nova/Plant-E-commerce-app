@@ -16,13 +16,13 @@
 }
 
 ._title {
-  color: white;
+  color: var(--light-clr);
   font-size: 6rem;
 }
 
 ._btn {
-  background-color: white;
-  color: black;
+  background-color: var(--light-clr);
+  color: var(--black-clr);
 }
 
 .homepage_categories {
@@ -48,7 +48,7 @@
 
 .categories_img_title {
   font-size: 2.3rem;
-  color: #000000;
+  color: var(--black-clr);
 }
 
 .categories_img_subtitle_plant {
@@ -81,7 +81,7 @@
 
 .categories_navLink {
   text-decoration: none;
-  color: #333333;
+  color: var(--ecommerce-btn-clr);
   font-weight: 500;
 }
 
@@ -108,12 +108,12 @@
 }
 
 .custom_btn {
-  background-color: #557669;
+  background-color: var(--plant-pri-clr);
   width: 93%;
 }
 
 .pri_clr {
-  color: #556052;
+  color: var(--plant-sec-clr);
 }
 
 .nav_searchBar {

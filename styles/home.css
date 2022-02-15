@@ -39,7 +39,7 @@
 .promotion_banner {
   display: grid;
   grid-template-areas: "one two";
-  margin: 3rem 1.5rem;
+  margin: 7rem 1.5rem 3rem;
 }
 
 .categories_img_container {
@@ -123,11 +123,28 @@
   border: 1px solid var(--gray-shade5);
 }
 
-.searchBar_icon{
+.searchBar_icon {
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
   background-color: pink;
+}
+
+.horizontal_rule_container {
+  margin-left: 4rem;
+  margin-top: 10rem;
+}
+
+.horizontal_rule {
+  width: 95%;
+}
+
+.footer_list_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 3rem 0;
 }

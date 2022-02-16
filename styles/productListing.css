@@ -8,5 +8,32 @@
 }
 
 .productlisting_main_content_container{
+    margin: 3rem 1.5rem;
+}
 
+.productlisting_sidebar{
+    width: 25%;
+}
+
+.productlisting_products{
+    width: 75%;
+}
+
+.products_filter_section{
+    display: flex;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid var(--custom-pri-clr);
+    padding-bottom: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_sidebar_title{
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid var(--custom-pri-clr);
+    padding-bottom: 1.2rem;
+}
+
+.products_sidebar_inputbox{
+    margin: 1.2rem 0;
 }

@@ -41,21 +41,27 @@
 }
 
 .custom_clear_btn {
-  background-color: var(--plant-pri-clr);
+  background-color: var(--plant-pri-light-clr);
   padding: 0.4rem 0.6rem;
   font-size: 0.8rem;
   outline: none;
 }
 
 .productlisting_products_container {
-    width: 75%;
-    margin: 3rem 1.5rem;
-    display: grid;
-    gap: 2.5rem;
-    row-gap: 7rem;
-    grid-template-areas:
-      "one two three"
-      "four five six" 
-      "seven eight nine";
-  
+  width: 75%;
+  margin: 3rem 1.5rem;
+  display: grid;
+  gap: 2.5rem;
+  row-gap: 7rem;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+}
+
+.productlisting_promotion_banner {
+  width: 118%;
+  object-fit: cover;
+  margin-top: 2rem;
+  margin-left: -0.5rem;
 }

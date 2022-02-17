@@ -13,6 +13,7 @@
 
 .cart_payment_receipt {
   width: 30%;
+  height: fit-content;
 }
 
 .cart_card_resize {
@@ -71,6 +72,5 @@
 }
 
 .cart_pricedetails_section_gap {
-  padding: 1rem 1rem 1rem 1.6rem;
+  padding: 1rem 1.6rem 1rem;
 }
-

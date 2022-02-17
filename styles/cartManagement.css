@@ -1,6 +1,6 @@
-.cart_page_title{
-    text-align: center;
-    margin: 4rem 0 5rem;
+.cart_page_title {
+  text-align: center;
+  margin: 4rem 0 5rem;
 }
 
 .cart_products_container {
@@ -13,7 +13,6 @@
 
 .cart_payment_receipt {
   width: 30%;
-  background-color: blueviolet;
 }
 
 .cart_card_resize {
@@ -36,7 +35,6 @@
 }
 
 .cart_card_solidbtn {
-  background-color: var(--plant-pri-clr);
   margin-left: 0.8rem;
 }
 
@@ -66,3 +64,13 @@
 .cart_card_btncontainer {
   margin-top: 1.8rem;
 }
+
+.cart_pricedetails_section {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart_pricedetails_section_gap {
+  padding: 1rem 1rem 1rem 1.6rem;
+}
+

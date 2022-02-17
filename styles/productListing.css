@@ -1,0 +1,66 @@
+.productlisting_banner_container {
+  height: 45vh;
+  background: url(https://cdn.shopify.com/s/files/1/0317/0687/3992/files/bg_about.jpg?v=1580377813);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 1rem 1.5rem;
+}
+
+.productlisting_main_content_container {
+  margin: 3rem 1.5rem;
+}
+
+.productlisting_sidebar {
+  width: 25%;
+  padding: 1rem 2rem 1rem 1rem;
+  margin-right: 2rem;
+}
+
+.productlisting_products {
+  width: 75%;
+}
+
+.products_filter_section {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--custom-pri-clr);
+  padding-bottom: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products_sidebar_title {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--custom-pri-clr);
+  padding-bottom: 1.2rem;
+}
+
+.products_sidebar_inputbox {
+  margin: 1.2rem 0;
+}
+
+.custom_clear_btn {
+  background-color: var(--plant-pri-light-clr);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+.productlisting_products_container {
+  width: 75%;
+  margin: 3rem 1.5rem;
+  display: grid;
+  gap: 2.5rem;
+  row-gap: 7rem;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+}
+
+.productlisting_promotion_banner {
+  width: 118%;
+  object-fit: cover;
+  margin-top: 2rem;
+  margin-left: -0.5rem;
+}

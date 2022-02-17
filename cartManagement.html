@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Management</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cosmic-ui.netlify.app/Components/cosmicUI.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cosmic-ui.netlify.app/Docs-css/Docs-navbar.css"
+    />
+    <link rel="stylesheet" href="https://cosmic-ui.netlify.app/style.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/utility.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/productListing.css" />
+    <link rel="stylesheet" href="styles/cartManagement.css" />
+    <script
+      src="https://kit.fontawesome.com/cbde1196cc.js"
+      defer
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="homepage_main_container">
+      <!-- NavBar -->
+      <nav class="nav-bar white mb-0">
+        <div class="nav-innerContainer font-clr">
+          <h2 class="nav-heading mr-4 font-resize">Plant.</h2>
+        </div>
+
+        <div class="nav-innerContainer font-clr width-auto">
+          <input class="nav_searchBar" type="text" />
+          <span class="searchBar_icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></span>
+        </div>
+
+        <div
+          class="nav-innerContainer nav-icon-container width-reset inherit-clr mr-1"
+        >
+          <div class="flex-col-center">
+            <a class="font-clr" href="#"><i class="fa-solid fa-heart"></i></a>
+            <small>Wishlist</small>
+          </div>
+
+          <div class="flex-col-center">
+            <a class="font-clr" href="#"><i class="fa-solid fa-user"></i></a>
+            <small>Profile</small>
+          </div>
+
+          <div class="flex-col-center">
+            <a class="font-clr nav-icon" href="#"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+            <small>Cart</small>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero banner image-->
+      <section class="productlisting_banner_container"></section>
+
+      <section
+        class="cart_container d-flex productlisting_main_content_container"
+      >
+        <div class="cart_products_container">
+          <div class="card-basic Card-horizontalImage-textContainer cart_card_resize">
+            <div class="Card-horizontalImage-text">
+              <img
+                class="card-img Card-horizontalImage-text-img Card-horizontalImage-text-img-Ecommerce cart_card_imgresize"
+                src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+              />
+
+              <div class="ml-2 cart_card_content">
+                <h3 class="card-heading">
+                  Nike Men's Flex 2020
+                </h3>
+                <small class="card-subHeading">Sport Shoes</small>
+                <p class="card-description text-bold">₹ 10,999</p>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <!-- <button class="btn btn-text-icon btn-ecommerce">
+                <span class="icon"><i class="fa fa-shopping-cart"></i></span>
+                Add to Cart
+              </button> -->
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cart_payment_receipt"></div>
+      </section>
+
+      <div class="horizontal_rule_container">
+        <hr class="horizontal_rule" />
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <ul class="footer_list_items">
+          <li><a class="mr-1 footer_link inherit-clr" href="#">About Us</a></li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="#">Customer Service</a>
+          </li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Subscription</a></li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Contact Us</a></li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Category</a></li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./productListing.html"
+              >All Product</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>

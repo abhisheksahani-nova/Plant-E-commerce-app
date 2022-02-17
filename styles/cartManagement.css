@@ -1,30 +1,65 @@
-.cart_container{
-
+.cart_container {
 }
 
-.cart_products_container{
-    width: 70%;
-    height: 30rem;
-    background-color: pink;
+.cart_products_container {
+  width: 70%;
+  height: 30rem;
+  background-color: pink;
 }
 
-.cart_payment_receipt{
-    width: 30%;
-    height: 15rem;
-    background-color: blueviolet;
+.cart_payment_receipt {
+  width: 30%;
+  height: 15rem;
+  background-color: blueviolet;
 }
 
-.cart_card_resize{
-    width: 35rem;
+.cart_card_resize {
+  width: 36rem;
 }
 
-.cart_card_content{
-    margin-top: 6px;
+.cart_card_content {
+  margin-top: 6px;
 }
 
-.cart_card_imgresize{
-    width: 10rem;
-    height: 10rem;
+.cart_card_imgresize {
+  width: 12rem;
+  height: 12rem;
 }
 
+.cart_card_closeicon {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
 
+.cart_card_solidbtn {
+  background-color: var(--plant-pri-clr);
+  margin-left: 0.8rem;
+}
+
+.cart_card_outlinebtn {
+  border: 1px solid var(--plant-pri-clr);
+  color: var(--plant-pri-clr);
+  background-color: white;
+}
+
+.cart_card_quantitycontainer {
+  align-items: center;
+  margin: 1rem 0 0 0.8rem;
+}
+
+.cart_card_quantity_inp {
+  text-align: center;
+  width: 3rem;
+  height: 1.7rem;
+  outline: none;
+}
+
+.customstyle_btn {
+  padding: 0.1rem 0.4rem;
+  margin: 0 0.5rem;
+}
+
+.cart_card_btncontainer{
+    margin-top: 1.8rem;
+}

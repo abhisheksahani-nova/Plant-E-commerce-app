@@ -20,3 +20,12 @@
 .create_acc_link {
   color: var(--custom-dark-clr);
 }
+
+.login_checkbox_inp_container{
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.login_inp_label_resize{
+    font-size: 0.95rem;
+}

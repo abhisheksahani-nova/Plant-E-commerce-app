@@ -61,8 +61,8 @@
           onsubmit="event.preventDefault(); checkFormValidation()"
         >
           <h2 class="t-align-center mt-2 mb-2">Login</h2>
-          <div class="inp-container gap-resize">
-            <label class="inp-label d-block inp-label-required f-size1" for=""
+          <div class="inp-container mb-1">
+            <label class="inp-label d-block inp-label-required login_inp_label_resize" for=""
               >Username</label
             >
             <input
@@ -79,8 +79,8 @@
             </div>
           </div>
 
-          <div class="inp-container gap-resize">
-            <label class="inp-label d-block inp-label-required f-size1" for=""
+          <div class="inp-container mb-1">
+            <label class="inp-label d-block inp-label-required login_inp_label_resize" for=""
               >Password</label
             >
             <input
@@ -97,11 +97,13 @@
             </div>
           </div>
 
-          <div class="inp-container gap-resize">
-            <input type="checkbox" id="checkbox-termsPolicy" />
-            <label class="inp-label inp-label-required f-size1"
-              >Yes, I accept the Cosmic UI terms & policy</label
-            >
+          <div class="inp-container mb-1">
+            <div class="d-flex login_checkbox_inp_container">
+              <input type="checkbox" id="checkbox-termsPolicy" />
+              <label class="inp-label inp-label-required font-small"
+                >Remember Me</label
+              >
+            </div>
 
             <div class="err-msg-container d-none">
               <span
@@ -117,8 +119,10 @@
             </button>
           </div>
 
-          <div class="inp-container t-align-center">
-            <small><a class="create_acc_link" href="#">Create New Account</a></small>
+          <div class="inp-container t-align-center mb-2">
+            <small
+              ><a class="create_acc_link" href="#">Create New Account</a></small
+            >
           </div>
         </form>
       </section>

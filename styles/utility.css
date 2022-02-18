@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.ml-0{
+  margin-left: 0;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
@@ -36,6 +40,10 @@
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.gap-resize{
+  margin-bottom: 1.5rem;
 }
 
 .font-resize {
@@ -75,4 +83,8 @@
 
 .cta-btn{
   background-color: var(--plant-pri-clr);
+}
+
+.t-align-center{
+  text-align: center;
 }

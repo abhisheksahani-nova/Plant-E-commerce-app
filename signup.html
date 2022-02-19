@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cosmic-ui.netlify.app/Components/cosmicUI.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cosmic-ui.netlify.app/Docs-css/Docs-navbar.css"
+    />
+    <link rel="stylesheet" href="https://cosmic-ui.netlify.app/style.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/utility.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/login.css">
+    <script
+      src="https://kit.fontawesome.com/cbde1196cc.js"
+      defer
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="homepage_main_container">
+      <!-- NavBar -->
+      <nav class="nav-bar white mb-0">
+        <div class="nav-innerContainer font-clr">
+          <h2 class="nav-heading mr-4 font-resize">Plant.</h2>
+        </div>
+
+        <div
+          class="nav-innerContainer nav-icon-container width-reset inherit-clr mr-1"
+        >
+          <div class="flex-col-center">
+            <a class="font-clr" href="#"><i class="fa-solid fa-heart"></i></a>
+            <small>Wishlist</small>
+          </div>
+
+          <div class="flex-col-center">
+            <a class="font-clr" href="#"><i class="fa-solid fa-user"></i></a>
+            <small>Profile</small>
+          </div>
+
+          <div class="flex-col-center">
+            <a class="font-clr nav-icon" href="#"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+            <small>Cart</small>
+          </div>
+        </div>
+      </nav>
+
+      <section class="login_form_container d-flex">
+        <form
+          class="card-basic login_form"
+          onsubmit="event.preventDefault(); checkFormValidation()"
+        >
+          <h2 class="t-align-center mt-2 mb-2">Signup</h2>
+          <div class="inp-container mb-1">
+            <label
+              class="inp-label d-block inp-label-required login_inp_label_resize"
+              for=""
+              >Email address</label
+            >
+            <input
+              class="inp login_inp_resize"
+              id="inp-email"
+              placeholder="Enter your email address"
+            />
+
+            <div class="err-msg-container d-none">
+              <span
+                ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+                email address!</span
+              >
+            </div>
+          </div>
+
+          <div class="inp-container mb-1">
+            <label
+              class="inp-label d-block inp-label-required login_inp_label_resize"
+              for=""
+              >Password</label
+            >
+            <input
+              class="inp login_inp_resize"
+              id="inp-password"
+              placeholder="Enter password"
+            />
+
+            <div class="err-msg-container d-none">
+              <span
+                ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+                password!</span
+              >
+            </div>
+          </div>
+
+          <div class="inp-container mb-1">
+            <div class="d-flex login_checkbox_inp_container">
+              <input type="checkbox" id="checkbox-termsPolicy" />
+              <label class="inp-label inp-label-required font-small"
+                >I accept all Terms & Conditions</label
+              >
+            </div>
+
+            <div class="err-msg-container d-none">
+              <span
+                ><i class="fa fa-exclamation-circle err-icon"></i>Accept our
+                terms & policy before going forward!</span
+              >
+            </div>
+          </div>
+
+          <div class="inp-container ml-1 mb-1">
+            <button class="btn cta-btn login_custom_btn" type="submit">
+              Signup
+            </button>
+          </div>
+
+          <div class="inp-container t-align-center mb-2">
+            <small
+              ><a class="create_acc_link" href="#">Already have an account</a></small
+            >
+          </div>
+        </form>
+      </section>
+
+      <div class="horizontal_rule_container">
+        <hr class="horizontal_rule" />
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <ul class="footer_list_items">
+          <li><a class="mr-1 footer_link inherit-clr" href="#">About Us</a></li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="#">Customer Service</a>
+          </li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Subscription</a></li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Contact Us</a></li>
+          <li><a class="mr-1 ml-1 inherit-clr" href="#">Category</a></li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./productListing.html"
+              >All Product</a
+            >
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./cartManagement.html"
+              >My Cart</a
+            >
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="#">My Wishlist</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
